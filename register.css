@@ -1,0 +1,82 @@
+﻿.left {
+    height: auto;
+    width: auto;
+    float: center;
+}
+
+form {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+    input[type=text]:focus {
+        background-color:black;
+        outline: none;
+    }
+
+hr {
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+
+select {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+button {
+    background-color: rgb(32, 105, 148);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    float: center;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: rgb(202, 38, 38);
+}
+
+    .cancelbtn:hover {
+        background-color: #a54006;
+    }
+
+.submit {
+    width: 15%;
+}
+
+    .submit:hover {
+        background-color: rgb(38, 183, 202);
+    }
+
+.cancelbtn {
+    width: 15%;
+}
